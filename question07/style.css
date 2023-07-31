@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgb(248, 175, 238), rgb(253, 54, 243));
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+}
+
+.wrapper {
+  width: 230px;
+  height: 250px;
+  margin: 80px auto;
+  background-color: rgb(152, 51, 206);
+  color: white;
+  border-radius: 20px;
+  padding-left: 40px;
+}
+
+.user_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  margin-top: 20px;
+  border: 1px solid white;
+}
+
+.title {
+  font-size: 10px;
+  color: rgb(238, 238, 238);
+  margin-top: 15px;
+}
+
+.user_name {
+  font-size: 22px;
+  margin-top: -3px;
+}
+
+.discription {
+  font-size: 9px;
+  margin-right: 30px;
+  margin-top: -15px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.btn_link {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: none;
+  margin-right: 5px;
+}
+
+.btn_link img {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#img_1 {
+  width: 30px;
+  height: 30px;
+  margin-left: -8px;
+}
+
+#img_2 {
+  width: 20px;
+  height: 20px;
+}
+#img_3 {
+  width: 20px;
+  height: 20px;
+}
